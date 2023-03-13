@@ -1,4 +1,4 @@
-package com.isep.webtech;
+package com.example.lab1;
 
 import java.io.*;
 
