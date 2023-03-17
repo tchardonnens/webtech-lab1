@@ -24,6 +24,7 @@
     <input type="radio" name="gender" id="female" value="female">
     <br/>
     <input type="submit" value="Submit"/>
+    <a href="ReadCookies">See cookies</a>
 </form>
 </body>
 </html>
