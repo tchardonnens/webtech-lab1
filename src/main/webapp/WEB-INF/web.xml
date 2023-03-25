@@ -3,4 +3,34 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
+
+    <servlet>
+        <servlet-name>expression</servlet-name>
+        <jsp-file>/WEB-INF/views/expression.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>expression</servlet-name>
+        <url-pattern>/expression.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>scriptlet</servlet-name>
+        <jsp-file>/WEB-INF/views/scriptlet.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>scriptlet</servlet-name>
+        <url-pattern>/scriptlet.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>declaration</servlet-name>
+        <jsp-file>/WEB-INF/views/declaration.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>declaration</servlet-name>
+        <url-pattern>/declaration.jsp</url-pattern>
+    </servlet-mapping>
 </web-app>

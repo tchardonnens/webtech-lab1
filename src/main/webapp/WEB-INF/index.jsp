@@ -1,12 +1,10 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Who are you?" %>
-</h1>
+<h1>Form</h1>
 <br/>
 <form method="post" action="Form_Servlet">
     <label for="first_name">First name</label>
@@ -24,7 +22,19 @@
     <input type="radio" name="gender" id="female" value="female">
     <br/>
     <input type="submit" value="Submit"/>
-    <a href="ReadCookies">See cookies</a>
 </form>
+<a href="ReadCookies">See cookies</a>
+<br/>
+<ul>
+    <li>
+        <a href="expression.jsp">JSP expression</a>
+    </li>
+    <li>
+        <a href="scriptlet.jsp">JSP scriptlet</a>
+    </li>
+    <li>
+        <a href="declaration.jsp">JSP declaration</a>
+    </li>
+</ul>
 </body>
 </html>

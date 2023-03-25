@@ -10,7 +10,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(name = "Visits", value = "/Visits")
+@WebServlet(name = "Visits", value = "/")
 public class Visits extends HttpServlet {
     public void init() {
     }
