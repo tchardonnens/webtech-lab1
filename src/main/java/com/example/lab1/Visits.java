@@ -10,7 +10,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(name = "Visits", value = "/")
+@WebServlet(name = "Visits", value = "")
 public class Visits extends HttpServlet {
     public void init() {
     }
@@ -35,7 +35,7 @@ public class Visits extends HttpServlet {
                 }
             }
         }
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/index.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/index.html");
         dispatcher.forward(request, response);
     }
     public void destroy() {

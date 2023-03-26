@@ -33,4 +33,44 @@
         <servlet-name>declaration</servlet-name>
         <url-pattern>/declaration.jsp</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>bean</servlet-name>
+        <jsp-file>/WEB-INF/views/bean.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>bean</servlet-name>
+        <url-pattern>/bean.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>mvc-form</servlet-name>
+        <jsp-file>/WEB-INF/views/mvc-form.html</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>mvc-form</servlet-name>
+        <url-pattern>/mvc-form.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>old</servlet-name>
+        <jsp-file>/WEB-INF/views/old.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>old</servlet-name>
+        <url-pattern>/old.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>young</servlet-name>
+        <jsp-file>/WEB-INF/views/young.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>young</servlet-name>
+        <url-pattern>/young.html</url-pattern>
+    </servlet-mapping>
 </web-app>
