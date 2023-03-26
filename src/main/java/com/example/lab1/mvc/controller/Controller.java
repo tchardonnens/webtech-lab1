@@ -20,7 +20,7 @@ public class Controller extends HttpServlet {
                 request.getParameter("first_name"),
                 request.getParameter("last_name"),
                 request.getParameter("birth_date"),
-                request.getParameter("sex")
+                request.getParameter("gender")
         );
 
         Date constantDate = null;
