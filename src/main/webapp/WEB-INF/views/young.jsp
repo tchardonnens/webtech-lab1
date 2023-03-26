@@ -9,6 +9,6 @@
 <p>First name: <jsp:getProperty name="person" property="firstName"/></p>
 <p>Last name: <jsp:getProperty name="person" property="lastName"/></p>
 <p>Birth day: <jsp:getProperty name="person" property="birthDay"/></p>
-<p>Sex: <jsp:getProperty name="person" property="sex"/></p>
+<p>Sex: <jsp:getProperty name="person" property="gender"/></p>
 </body>
 </html>
